@@ -1,0 +1,149 @@
+{
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#000000",
+      "strikethrough": false,
+      "backgroundColor": "#FF2D00"
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "todo",
+      "color": "#000000",
+      "strikethrough": false,
+      "backgroundColor": "#FF8C00"
+    },
+    {
+      "tag": "note",
+      "color": "#000000",
+      "backgroundColor": "#98C379",
+      "strikethrough": false
+    },
+    {
+      "tag": "hack",
+      "color": "#000000",
+      "strikethrough": false,
+      "backgroundColor": "#FF2D00"
+    },
+    {
+      "tag": "bug",
+      "color": "#000000",
+      "strikethrough": false,
+      "backgroundColor": "#FF2D00"
+    },
+  ],
+  "editor.find.seedSearchStringFromSelection": true,
+  "editor.fontSize": 9.5,
+  "editor.tabSize": 2,
+  "editor.formatOnPaste": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.snippetSuggestions": "top",
+  "editor.tokenColorCustomizations": {
+    "[Material Facebook Gray]": {
+      "strings": "#D5D5CA",
+      "comments": "#546E7A",
+      "textMateRules": [
+        {
+          "name": "Name.Builtin.Pseudo",
+          "scope": "variable.language",
+          "settings": {
+            "foreground": "#B3B2A2"
+          }
+        },
+        {
+          "name": "Keyword",
+          "scope": [
+            "keyword",
+            "storage"
+          ],
+          "settings": {
+            "fontStyle": "bold",
+            "foreground": "#E4EAF0"
+          }
+        },
+        {
+          "name": "Keyword.Constant",
+          "scope": [
+            "constant.language",
+            "support.constant"
+          ],
+          "settings": {
+            "fontStyle": "bold",
+            "foreground": "#E4EAF0"
+          }
+        },
+        {
+          "name": "Name.Tag",
+          "scope": [
+            "entity.name.tag",
+            "support.class.component.open.jsx",
+            "entity.name.tag.close.jsx"
+          ],
+          "settings": {
+            "foreground": "#8DB3FF"
+          }
+        },
+        {
+          "name": "Name.Builtin",
+          "scope": "variable.other",
+          "settings": {
+            "foreground": "#8BE9EE"
+          }
+        },
+        {
+          "name": "Name.Function",
+          "scope": [
+            "entity.name.function",
+            "support.function",
+            "keyword.other.name-of-parameter",
+          ],
+          "settings": {
+            "fontStyle": "underline",
+            "foreground": "#8BE9EE"
+          }
+        },
+        {
+          "name": "Name.Constant",
+          "scope": "variable.other.constant",
+          "settings": {
+            "foreground": "#18C9C9"
+          }
+        }
+      ]
+    }
+  },
+  "editor.lineHeight": 13,
+  "workbench.colorTheme": "Material Facebook Gray",
+  "workbench.colorCustomizations": {
+    "[Material Facebook Gray]": {
+      "panel.border": "#1E282D",
+      "sideBar.background": "#1E282D",
+    }
+  },
+  "workbench.activityBar.visible": false,
+  "workbench.tree.indent": 18,
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "gitlens.codeLens.enabled": false,
+  "window.zoomLevel": 0,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  }
+}
